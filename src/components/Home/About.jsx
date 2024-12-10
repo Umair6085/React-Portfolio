@@ -29,12 +29,12 @@ const About = () => {
                 <br />
                 <br />
                   As a
-                  <b className="yellow"> Front-End </b>developer,  
+                  <b className="yellow"> Web and Mobile App Dev </b>developer,  
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as Python, C, C++, Java.
+                    as well as have knowledge in programming languages such as TypeScript, Python, C, C++, R.
                   <br />
                   <br />
                   I have a passion for working
@@ -47,7 +47,7 @@ const About = () => {
                   </i>
                   &nbsp; like
                   <i>
-                    <b className="yellow"> React.js</b>
+                    <b className="yellow"> React JS and React Native</b>
                   </i>
                   <br />
                   <br />

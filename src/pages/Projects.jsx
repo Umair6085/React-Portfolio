@@ -8,6 +8,9 @@ import travel from "../assets/projects/travel-site.png";
 import portfolio from "../assets/projects/portfolio.png";
 import foodious from "../assets/projects/foodious.png";
 import amazon from "../assets/projects/amazon-clone.png";
+import notesapp from "../assets/projects/notes-app.png"
+import socialfy from "../assets/projects/socialfy.png"
+import blogweb from "../assets/projects/blog-website.png"
 
 const Projects = () => {
   return (
@@ -21,6 +24,40 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notesapp}
+              isBlog={false}
+              title="Notes App"
+              description="This project is built in React JS and Firebase. Users can easily add, delete, and update notes in the Notes list. The backend is covered with local storage. User can login and register with Firebase Auth."
+              ghLink="https://github.com/Umair6085/Notes-App"
+              demoLink="https://notes-app-muy.vercel.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={socialfy}
+              isBlog={false}
+              title="Social Web App"
+              description="This project is a social app that allows you to create posts, edit and delete them. Every user can see your posts. You can also Login and Register with Firebase Auth"
+              ghLink="https://github.com/Umair6085/Socialfy-WebApp"
+              demoLink="https://socialfy-web-app.vercel.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogweb}
+              isBlog={false}
+              title="Blog Website"
+              description="This Website is made with React JS and CSS. It gives us the sleek and wonderful design.You can see the latest blogs. You can view blogs according to the topics you like."
+              ghLink="https://github.com/Umair6085/React-Project-1"
+              demoLink="https://react-project-1-muy.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}

@@ -13,6 +13,11 @@ import {
   SiC,
   SiCplusplus,
   SiHtml5,
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobexd,
+  SiAdobeindesign,
+  SiAdobelightroom,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -47,6 +52,21 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeillustrator />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeindesign />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobelightroom />
       </Col>
     </Row>
   );
